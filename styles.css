@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #08A0DC;
+}
+
+.navbar {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-title {
+    color: black;
+    font-size: 163px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden; /* Opzionale: assicura che l'immagine non crei barre di scorrimento */
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Rimuove eventuali spazi bianchi sotto l'immagine */
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+.text {
+    flex: 1;
+    padding: 21px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.circle {
+    flex: 0 0 500px;
+    width: 500px;
+    height: 500px;
+    background-color: #FE4D01;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 240px;
+    font-weight: bold;
+}
